@@ -1,0 +1,52 @@
+.Articles {
+	transition: box-shadow .2s ease-in,
+				transform .2s ease-in;
+}
+
+.Articles:hover {
+	box-shadow: 3px 3px gray
+	transform: translate(3px, 3px);
+}
+
+.Aritcles:active {
+	transform: translate(3px, 3px);
+}
+
+.title {
+	display: inline;
+}
+.spacer {
+	display: inline;
+}
+.updateTime {
+	display: inline;
+}
+.articleHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-size: 100%
+}
+
+
+.edit-container {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+
+.edit-main, .edit-preview {
+  width: 45%;
+}
+.edit-toolbar {
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+.edit-status-bar {
+  color: #777;
+}
+
+.edit-preview h1 {
+	margin: 0 auto;
+}
